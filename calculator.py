@@ -1,6 +1,6 @@
 import time
 print("welcome",
-      "you may enter ypur numbers")
+      "you may enter your numbers")
 num1= input("ENTER NUM1:")
 op= input("enter the operator:")
 num2=input("ENTER NUM2:")
