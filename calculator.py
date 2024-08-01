@@ -1,22 +1,21 @@
 import time
 print("welcome",
       "you may enter your numbers")
-num1= input("ENTER NUM1:")
+num1=float(input("ENTER NUM1:"))
 op= input("enter the operator:")
-num2=input("ENTER NUM2:")
-
+num2=float(input("ENTER NUM2:"))
 if(op== '-'):
- print("YOUR RESULT IS:",num1 - num2)
+ print("YOUR RESULT IS:",(num1-num2))
 elif(op== '+'):
- print("YOUR RESULT IS:",num1+num2)
+ print("YOUR RESULT IS:",(num1 +num2))
 elif(op== '/'):
- print("YOUR RESULT IS:",float(num1/num2))
+ print("YOUR RESULT IS:"(num1/num2))
 elif(op== '*'):
- print("YOUR RESULT IS:",num1*num2)
+ print("YOUR RESULT IS:",(num1*num2))
 elif(op== '^'):
- print("YOUR RESULT IS:",num1^num2)
+ print("YOUR RESULT IS:",(num1^num2))
 else:
  print("syntax error")
-
+ 
 print("THANK YOU FOR USING")
 time.sleep(5)
