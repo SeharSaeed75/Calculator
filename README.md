@@ -1,6 +1,6 @@
 # Calculator:
    Simple calculator that works through the terminal can solve basic mathematical problems. 
-   Like, "*", "+","/", "-","^" .
+   Including Opreations Like, "*", "+","/", "-","^" .
    It handles 'float' values.Making the result precise.
  # Language used:
    Python
